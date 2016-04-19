@@ -1,0 +1,52 @@
+h1 {
+    border-bottom: 1px solid #c0c0c0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr.header {
+    font-weight: bold;
+}
+
+td.detailsColumn {
+    -webkit-padding-start: 2em;
+    text-align: end;
+    white-space: nowrap;
+}
+
+a.icon {
+    -webkit-padding-start: 1.5em;
+    text-decoration: none;
+}
+
+a.icon:hover {
+    text-decoration: underline;
+}
+
+a.file {
+    background: url("../img/file.png") left top no-repeat;
+}
+
+a.dir {
+    background: url("../img/dir.png") left top no-repeat;
+}
+
+a.up {
+    background: url("../img/up.png") left top no-repeat;
+}
+
+html[dir=rtl] a {
+    background-position-x: right;
+}
+
+#listingParsingErrorBox {
+    border: 1px solid black;
+    background: #fae691;
+    padding: 10px;
+    display: none;
+}
